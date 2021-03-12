@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/whitesquare"
+        android:layout_marginBottom="4dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="30dp"
+            android:padding="20dp"
+            android:text="RESUME videos"
+            android:id="@+id/resumevideo"
+            android:textSize="20dp"
+            android:textStyle="bold"> </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="30dp"
+            android:padding="20dp"
+            android:text="APTITUDE videos"
+            android:id="@+id/aptitudevideo"
+            android:textSize="20dp"
+            android:textStyle="bold"> </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="30dp"
+            android:padding="20dp"
+            android:text="GD videos"
+            android:id="@+id/gdvideo"
+            android:textSize="20dp"
+            android:textStyle="bold"> </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="30dp"
+            android:padding="20dp"
+            android:text="INTERVIEW videos"
+            android:id="@+id/interviewvideo"
+            android:textSize="20dp"
+            android:textStyle="bold"> </Button>
+
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

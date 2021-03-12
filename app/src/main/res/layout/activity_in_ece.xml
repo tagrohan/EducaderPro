@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inECE">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".inECE">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select your year"
+            android:layout_marginTop="20dp"
+            android:textSize="40sp"
+            android:background="#f3f3f3"
+            android:layout_gravity="center"
+            android:textColor="#F70909"
+            android:textStyle="bold"> </TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:onClick="onececlick"
+            android:text="FIRST YEAR"
+            android:textSize="40dp"
+            android:id="@+id/first_ece"
+            android:background="@drawable/firstshape"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#10D8F1">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/second_ece"
+            android:text="SECOND YEAR"
+            android:onClick="onececlick"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/firstshape"
+            android:textSize="40dp"
+            android:textColor="#10D8F1"> </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:onClick="onececlick"
+            android:layout_height="120dp"
+            android:text="THIRD YEAR"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/firstshape"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/third_ece"
+            android:textSize="40dp"
+
+            android:textColor="#10D8F1"> </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginRight="10dp"
+            android:onClick="onececlick"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/firstshape"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/fourth_ece"
+            android:text="FOURTH YEAR"
+            android:textSize="40dp"
+            android:textColor="#10D8F1"> </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="130dp"
+            android:textColor="#EB1515"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:text="SCOPE OF ELECTRONICS AND COMMUNICATION"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="work in progress..."
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="30sp"></TextView>
+
+
+    </LinearLayout>
+</ScrollView>

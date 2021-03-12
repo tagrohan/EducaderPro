@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tabshape"
+    android:layout_height="match_parent"
+    tools:context=".in_interview">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragfirstcse"
+        >
+        <include layout="@layout/tabinterview"></include>
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/viewpager_interview"
+            android:layout_marginTop="50dp"> </androidx.viewpager.widget.ViewPager>
+    </FrameLayout>
+
+
+</LinearLayout>

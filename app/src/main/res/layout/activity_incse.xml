@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".incse">
+
+    <LinearLayout
+        android:orientation="vertical"
+       android:background="@drawable/whitesquare"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".incse">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your year"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:background="#f3f3f3"
+        android:layout_gravity="center"
+        android:textColor="#F70909"
+        android:textStyle="bold"> </TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/tab"
+        android:text="FIRST YEAR"
+        android:onClick="oncseclick"
+        android:id="@+id/first_cse"
+        android:textSize="35dp"
+
+
+       android:textColor="#ffffff">
+    </Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/tab"
+            android:onClick="oncseclick"
+            android:id="@+id/second_cse"
+            android:text="SECOND YEAR"
+           android:textColor="#ffffff"
+            android:textSize="35dp"></Button>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/tab"
+        android:id="@+id/third_cse"
+        android:onClick="oncseclick"
+            android:text="THIRD YEAR"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"> </Button>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/tab"
+        android:onClick="oncseclick"
+        android:id="@+id/fourth_cse"
+        android:text="FOURTH YEAR"
+        android:textSize="35dp"
+
+        android:textColor="#ffffff"> </Button>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="130dp"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="SCOPE of CSE"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="INTRODUCTION"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scope"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="Step-by-Step"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/STEP"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="START EARLY"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="Is it the right career for me?"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/QUESTION"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="What Would It Cost Me?"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cost"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="Funding/Scholarship"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/funding"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="Job Prospects"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/job"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="Pay Packet"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/packet"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="Demand and Supply"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/demand"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="Market Watch"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Market"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="International Focus"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/International"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="Positives/Negatives"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Positives"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="Different Roles, Different Names"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/Different"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#3D5AFE"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:text="Top Companies"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Different"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"></TextView>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listname">
+
+        </ListView>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luqidoproit.educaderpro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/apl"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".satvideo"></activity>
+        <activity android:name=".upscvideo" />
+        <activity android:name=".catvideo" />
+        <activity android:name=".gatevideo" />
+        <activity android:name=".intervideo" />
+        <activity android:name=".gdvideo" />
+        <activity android:name=".aptitudevideo" />
+        <activity android:name=".resumevideo" />
+        <activity android:name=".pdfopnercomp" />
+        <activity android:name=".ingate" />
+        <activity
+            android:name=".pdfopnerinterview"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".leadershipvideo"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".publicspeakingvideo"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".englishcommvideo"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".entreprevideo"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".presentationvideo"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".teamvideo"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".pdfopner"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".Youtube"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".feedback"
+            android:launchMode="singleInstance" /> <!-- <activity android:name=".contect_us_data"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".insubjects"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".in_interview"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".in_pub_speak"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".first_cse"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".aboutactivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".Main3Activity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".inECE"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".inEE"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".inAI"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".inME"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".incivil"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".incse"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".Main2Activity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

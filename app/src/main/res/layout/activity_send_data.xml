@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".contect_us_data">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".contect_us_data">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/math"
+        android:id="@+id/math"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/electrical"
+        android:id="@+id/electrical"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chemistry"
+        android:id="@+id/chemistry"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/program"
+        android:id="@+id/program"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/physics"
+        android:id="@+id/physics"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/graphics"
+        android:id="@+id/graphics"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/math2"
+        android:id="@+id/math2"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/english"
+        android:id="@+id/english"
+        android:textSize="20sp"        > </TextView>
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SOFTWARE"
+        android:id="@+id/SOFTWARE"
+        android:textSize="20dp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DATASTRC"
+        android:id="@+id/DATASTRC"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MICRO"
+        android:id="@+id/MICRO"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DLD"
+        android:id="@+id/DLD"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TUFFEL"
+        android:id="@+id/TUFFEL"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DISCRETE"
+        android:id="@+id/DISCRETE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/OS"
+        android:id="@+id/OS"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MATHS3"
+        android:id="@+id/MATHS3"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HUMANVALUE"
+        android:id="@+id/HUMANVALUE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/COA"
+        android:id="@+id/COA"
+        android:textSize="20sp"
+        > </TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SCIENCE_ME"
+        android:id="@+id/SCIENCE_ME"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MATH_3_ME"
+        android:id="@+id/MATH_3_ME"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TECHINAL_ME"
+        android:id="@+id/TECHINAL_ME"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HUMAN_ME"
+        android:id="@+id/HUMAN_ME"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/THERMO"
+        android:id="@+id/THERMO"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FLUID"
+        android:id="@+id/FLUID"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MATERIALS"
+        android:id="@+id/MATERIALS"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/APPLIED"
+        android:id="@+id/APPLIED"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MECHANICS"
+        android:id="@+id/MECHANICS"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MANUFAC"
+        android:id="@+id/MANUFAC"
+        android:textSize="20sp"
+        > </TextView>
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SCIENCE"
+        android:id="@+id/SCIENCE"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MATH_3"
+        android:id="@+id/MATH_3"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TECHINAL"
+        android:id="@+id/TECHINAL"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HUMAN"
+        android:id="@+id/HUMAN"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ELECTRICAL"
+        android:id="@+id/ELECTRICAL"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ELECTROMAGNETIC"
+        android:id="@+id/ELECTROMAGNETIC"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ELECTRONICS"
+        android:id="@+id/ELECTRONICS"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MECHINES"
+        android:id="@+id/MECHINES"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ANALYSAS"
+        android:id="@+id/ANALYSAS"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SIGNALS"
+        android:id="@+id/SIGNALS"
+        android:textSize="20sp"
+        > </TextView>
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SCIENCE_ECE"
+        android:id="@+id/SCIENCE_ECE"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MATH_3_ECE"
+        android:id="@+id/MATH_3_ECE"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TECHINAL_ECE"
+        android:id="@+id/TECHINAL_ECE"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HUMAN_ECE"
+        android:id="@+id/HUMAN_ECE"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DSD"
+        android:id="@+id/DSD"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/COMM_ENG"
+        android:id="@+id/COMM_ENG"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ELECTRONICS_ECE"
+        android:id="@+id/ELECTRONICS_ECE"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CIRCUIT"
+        android:id="@+id/CIRCUIT"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ANALYSAS_ECE"
+        android:id="@+id/ANALYSAS_ECE"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SIGNAL_ECE"
+        android:id="@+id/SIGNAL_ECE"
+        android:textSize="20sp"
+        > </TextView>
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SCIENCE_CIV"
+        android:id="@+id/SCIENCE_CIV"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MATH_3_CIV"
+        android:id="@+id/MATH_3_CIV"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TECHINAL_CIV"
+        android:id="@+id/TECHINAL_CIV"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HUMAN_CIV"
+        android:id="@+id/HUMAN_CIV"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FLUID_CIV"
+        android:id="@+id/FLUID_CIV"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MECHANICS_CIV"
+        android:id="@+id/MECHANICS_CIV"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GEOMATICS"
+        android:id="@+id/GEOMATICS"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CONSTRUCTIONS"
+        android:id="@+id/CONSTRUCTIONS"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SOLOD"
+        android:id="@+id/SOLOD"
+        android:textSize="20sp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HYDRA"
+        android:id="@+id/HYDRA"
+        android:textSize="20sp"
+        > </TextView>
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PPL"
+        android:id="@+id/PPL"
+        android:textSize="20dp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GRAPHICS"
+        android:id="@+id/GRAPHICS"
+        android:textSize="20dp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NETWORK"
+        android:id="@+id/NETWORK"
+        android:textSize="20dp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/WT"
+        android:id="@+id/WT"
+        android:textSize="20dp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/INDUSTRIAL"
+        android:id="@+id/INDUSTRIAL"
+        android:textSize="20dp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CYBER"
+        android:id="@+id/CYBER"
+        android:textSize="20dp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DBMS"
+        android:id="@+id/DBMS"
+        android:textSize="20dp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ECONOMICS"
+        android:id="@+id/ECONOMICS"
+        android:textSize="20dp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/COMPILER"
+        android:id="@+id/COMPILER"
+        android:textSize="20dp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SOCIOLOGY"
+        android:id="@+id/SOCIOLOGY"
+        android:textSize="20dp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DAA"
+        android:id="@+id/DAA"
+        android:textSize="20dp"
+        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DATAMINING"
+        android:id="@+id/DATAMINING"
+        android:textSize="20dp"
+        > </TextView>
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MACHINE"
+        android:id="@+id/MACHINE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HEAT"
+        android:id="@+id/HEAT"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MANUFACTURING_2"
+        android:id="@+id/MANUFACTURING_2"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/IC"
+        android:id="@+id/IC"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/INDUSTRIAL_ME"
+        android:id="@+id/INDUSTRIAL_ME"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CYBER_ME"
+        android:id="@+id/CYBER_ME"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/F_MACHINES"
+        android:id="@+id/F_MACHINES"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ECONOMICS_ME"
+        android:id="@+id/ECONOMICS_ME"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MACHINE_DESIGN"
+        android:id="@+id/MACHINE_DESIGN"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SOCIOLOGY_ME"
+        android:id="@+id/SOCIOLOGY_ME"
+        android:textSize="20sp"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/THEORY"
+        android:id="@+id/THEORY"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RELIABILITY"
+        android:id="@+id/RELIABILITY"
+        android:textSize="20sp"       />
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MECHINES_2"
+        android:id="@+id/MECHINES_2"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PTAD"
+        android:id="@+id/PTAD"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CONTROL"
+        android:id="@+id/CONTROL"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PSO"
+        android:id="@+id/PSO"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/INDUSTRIAL_EE"
+        android:id="@+id/INDUSTRIAL_EE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CYBER_EE"
+        android:id="@+id/CYBER_EE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PE"
+        android:id="@+id/PE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ECONOMICS_EE"
+        android:id="@+id/ECONOMICS_EE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MICROPRO"
+        android:id="@+id/MICROPRO"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SOCIOLOGY_EE"
+        android:id="@+id/SOCIOLOGY_EE"
+        android:textSize="20sp" />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/PSA"
+    android:id="@+id/PSA"
+    android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/VOLTAGE"
+        android:id="@+id/VOLTAGE"
+        android:textSize="20sp"        > </TextView>
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GE"
+        android:id="@+id/GE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/STRUCTURE"
+        android:id="@+id/STRUCTURE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ESTIMATION"
+        android:id="@+id/ESTIMATION"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MC"
+        android:id="@+id/MC"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/INDUSTRIAL_CIV"
+        android:id="@+id/INDUSTRIAL_CIV"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CYBER_CIV"
+        android:id="@+id/CYBER_CIV"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ECO"
+        android:id="@+id/ECO"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ECONOMICS_CIV"
+        android:id="@+id/ECONOMICS_CIV"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TRANSPORT"
+        android:id="@+id/TRANSPORT"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SOCIOLOGY_CIV"
+        android:id="@+id/SOCIOLOGY_CIV"
+        android:textSize="20sp" />
+      <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/FD"
+    android:id="@+id/FD"
+    android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/STRUCTURE_2"
+        android:id="@+id/STRUCTURE_2"
+        android:textSize="20sp"        > </TextView>
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/POC"
+        android:id="@+id/POC"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/INTEGRATED"
+        android:id="@+id/INTEGRATED"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DSP"
+        android:id="@+id/DSP"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AWP"
+        android:id="@+id/AWP"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/INDUSTRIAL_ECE"
+        android:id="@+id/INDUSTRIAL_ECE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CYBER_ECE"
+        android:id="@+id/CYBER_ECE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SYSTEM_1"
+        android:id="@+id/SYSTEM_1"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ECONOMICS_ECE"
+        android:id="@+id/ECONOMICS_ECE"
+        android:textSize="20sp"        > </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MICROWAVE"
+        android:id="@+id/MICROWAVE"
+        android:textSize="20sp"        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SOCIOLOGY_ECE"
+        android:id="@+id/SOCIOLOGY_ECE"
+        android:textSize="20sp" />
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/DC"
+    android:id="@+id/DC"
+    android:textSize="20sp"       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ASP"
+        android:id="@+id/ASP"
+        android:textSize="20sp"       />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // COMMON FIRST YEAR SYLLABUS  ENGINEERING_CHEMISTRY
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT1_ENGINEERING_CHEMISTRY"
+            android:id="@+id/UNIT1_ENGINEERING_CHEMISTRY"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT2_ENGINEERING_CHEMISTRY"
+            android:id="@+id/UNIT2_ENGINEERING_CHEMISTRY"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT3_ENGINEERING_CHEMISTRY"
+            android:id="@+id/UNIT3_ENGINEERING_CHEMISTRY"
+            android:textSize="20sp"        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT4_ENGINEERING_CHEMISTRY"
+            android:id="@+id/UNIT4_ENGINEERING_CHEMISTRY"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT5_ENGINEERING_CHEMISTRY"
+            android:id="@+id/UNIT5_ENGINEERING_CHEMISTRY"
+            android:textSize="20sp"       />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // COMMON FIRST YEAR SYLLABUS  ELECTRICAL
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT1_ELECTRICAL"
+            android:id="@+id/UNIT1_ELECTRICAL"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT2_ELECTRICAL"
+            android:id="@+id/UNIT2_ELECTRICAL"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT3_ELECTRICAL"
+            android:id="@+id/UNIT3_ELECTRICAL"
+            android:textSize="20sp"        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT4_ELECTRICAL"
+            android:id="@+id/UNIT4_ELECTRICAL"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT5_ELECTRICAL"
+            android:id="@+id/UNIT5_ELECTRICAL"
+            android:textSize="20sp"       />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // COMMON FIRST YEAR SYLLABUS  PROFESSIONAL_ENGLISH
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT1_PROFESSIONAL_ENGLISH"
+            android:id="@+id/UNIT1_PROFESSIONAL_ENGLISH"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT2_PROFESSIONAL_ENGLISH"
+            android:id="@+id/UNIT2_PROFESSIONAL_ENGLISH"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT3_PROFESSIONAL_ENGLISH"
+            android:id="@+id/UNIT3_PROFESSIONAL_ENGLISH"
+            android:textSize="20sp"        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT4_PROFESSIONAL_ENGLISH"
+            android:id="@+id/UNIT4_PROFESSIONAL_ENGLISH"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT5_PROFESSIONAL_ENGLISH"
+            android:id="@+id/UNIT5_PROFESSIONAL_ENGLISH"
+            android:textSize="20sp"       />
+
+
+
+
+
+
+
+
+
+
+
+        //COMMON FIRST YEAR SYLLABUS  PROGRAMMING
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT1_PROGRAMMING"
+            android:id="@+id/UNIT1_PROGRAMMING"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT2_PROGRAMMING"
+            android:id="@+id/UNIT2_PROGRAMMING"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT3_PROGRAMMING"
+            android:id="@+id/UNIT3_PROGRAMMING"
+            android:textSize="20sp"        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT4_PROGRAMMING"
+            android:id="@+id/UNIT4_PROGRAMMING"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT5_PROGRAMMING"
+            android:id="@+id/UNIT5_PROGRAMMING"
+            android:textSize="20sp"       />
+
+
+
+
+
+
+
+
+
+
+        // COMMON FIRST YEAR SYLLABUS  PHYSICS
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT1_PHYSICS"
+            android:id="@+id/UNIT1_PHYSICS"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT2_PHYSICS"
+            android:id="@+id/UNIT2_PHYSICS"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT3_PHYSICS"
+            android:id="@+id/UNIT3_PHYSICS"
+            android:textSize="20sp"        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT4_PHYSICS"
+            android:id="@+id/UNIT4_PHYSICS"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT5_PHYSICS"
+            android:id="@+id/UNIT5_PHYSICS"
+            android:textSize="20sp"       />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //COMMON FIRST YEAR SYLLABUS  MATHS2
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT1_MATHS2"
+            android:id="@+id/UNIT1_MATHS2"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT2_MATHS2"
+            android:id="@+id/UNIT2_MATHS2"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT3_MATHS2"
+            android:id="@+id/UNIT3_MATHS2"
+            android:textSize="20sp"        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT4_MATHS2"
+            android:id="@+id/UNIT4_MATHS2"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT5_MATHS2"
+            android:id="@+id/UNIT5_MATHS2"
+            android:textSize="20sp"       />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //COMMON FIRST YEAR SYLLABUS  MATHS1
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT1_MATHS1"
+            android:id="@+id/UNIT1_MATHS1"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT2_MATHS1"
+            android:id="@+id/UNIT2_MATHS1"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT3_MATHS1"
+            android:id="@+id/UNIT3_MATHS1"
+            android:textSize="20sp"        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT4_MATHS1"
+            android:id="@+id/UNIT4_MATHS1"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT5_MATHS1"
+            android:id="@+id/UNIT5_MATHS1"
+            android:textSize="20sp"       />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //COMMON FIRST YEAR SYLLABUS  GRAPHICS
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT1_GRAPHICS"
+            android:id="@+id/UNIT1_GRAPHICS"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT2_GRAPHICS"
+            android:id="@+id/UNIT2_GRAPHICS"
+            android:textSize="20sp"        > </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT3_GRAPHICS"
+            android:id="@+id/UNIT3_GRAPHICS"
+            android:textSize="20sp"        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT4_GRAPHICS"
+            android:id="@+id/UNIT4_GRAPHICS"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT5_GRAPHICS"
+            android:id="@+id/UNIT5_GRAPHICS"
+            android:textSize="20sp"       />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
