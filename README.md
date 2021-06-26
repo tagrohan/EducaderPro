@@ -1,7 +1,7 @@
 # Educader V-1.4🏗
 
 # Educader 📊
-descriptionEducader an Ed-tech Android app that allows students to read valuable notes, contents and watch videos regarding all competitive exams and course-specific contents on a single platform 📱 built to demonstrate the use MVC architecture pattern, rich UI/UX design 🏗. Developed By [Rohan Singh](https://github.com/tagrohan)
+Educader an Ed-tech Android app that allows students to read valuable notes, contents and watch videos regarding all competitive exams and course-specific contents on a single platform 📱 built to demonstrate the use MVC architecture pattern, rich UI/UX design 🏗. Developed By [Rohan Singh](https://github.com/tagrohan)
 
 <br />
 
