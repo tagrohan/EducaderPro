@@ -14,6 +14,6 @@ A Media based note taking Application 📱 built to demonstrate the use MVC arch
 ## Day Mode 🌞
 Home | Add Note | Edit Note | Search Note 
 --- | --- | --- |---
-![](https://github.com/tagrohan/EducaderPro/blob/master/images/1.png) | ![](https://github.com/tagrohan/EducaderPro/blob/master/images/2.png) | ![](https://github.com/tagrohan/EducaderPro/blob/master/images/3.png) |![](https://github.com/tagrohan/EducaderPro/blob/master/images/5.png) 
+![](https://github.com/tagrohan/EducaderPro/blob/master/images/1.jpg) | ![](https://github.com/tagrohan/EducaderPro/blob/master/images/2.jpg) | ![](https://github.com/tagrohan/EducaderPro/blob/master/images/3.jpg) |![](https://github.com/tagrohan/EducaderPro/blob/master/images/5.jpg) 
 
 <br />
