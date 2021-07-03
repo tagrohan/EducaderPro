@@ -19,7 +19,7 @@ public class ECEthird {
 
     }
 
-
+// each classes are designed for specific syllabus
     public ECEthird(String poc, String integrated, String dsp, String awp, String industrial_ece, String cyber_ece, String system_1, String economics_ece, String microwave, String sociology_ece, String dc, String asp) {
         POC = poc;
         INTEGRATED = integrated;
